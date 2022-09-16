@@ -1,0 +1,21 @@
+{
+    "name": "can/jettek",
+    "type": "project",
+    "require": {
+        "illuminate/database": "^8.83",
+        "illuminate/events": "^8.83"    
+    },
+    "license": "MIT",
+    "autoload": {
+        "files" : ["db.php"],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "canykav",
+            "email": "canyigitkav@gmail.com"
+        }
+    ]
+}

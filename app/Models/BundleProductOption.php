@@ -23,4 +23,11 @@ class BundleProductOption {
 
         return $products;
     }
+
+    public static function delete($product_id, $bundle_id) {
+        return DB::table('bundle_product_option')
+            ->where('product_id', $product_id)
+            ->where('bundle_id', $bundle_id)
+            ->delete($data);
+    }
 }
